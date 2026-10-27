@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IEstats Support</title>
+<style>
+  :root { --text: #1d1d1f; --muted: #6e6e73; --bg: #ffffff; --accent: #3b5bdb; }
+  @media (prefers-color-scheme: dark) { :root { --text: #f5f5f7; --muted: #a1a1a6; --bg: #000000; --accent: #7c95ff; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 6px; }
+  p, li { margin: 0 0 10px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .app { display: flex; gap: 14px; align-items: center; margin-bottom: 12px; }
+  .app img { flex: none; border-radius: 16px; border: 1px solid rgba(128, 128, 128, 0.25); }
+  .app h1 { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <header class="app">
+    <img src="icon.png" width="72" height="72" alt="The IEstats app icon: the Iron Eagles eagle with i.e.">
+    <h1>IEstats Support</h1>
+  </header>
+  <p class="muted">Stats, scouting and tools for VEX V5 Robotics Competition teams, coaches and parents.</p>
+
+  <h2>Contact</h2>
+  <p>Found a bug, missing data, or have an idea? Email <a href="mailto:vstatsVRC@gmail.com">vstatsVRC@gmail.com</a>.
+  Include your team number and, for a problem at an event, the event's name or code (like RE-V5RC-26-1234).</p>
+
+  <h2>Getting started</h2>
+  <p>Open <b>Settings → My teams</b>, choose Competitor, Coach or Parent, enter your team number (like 9364E) or, as a
+  coach, your club number (like 9364) for all of its teams, and tap <b>Save</b>. No account is needed.</p>
+
+  <h2>Common questions</h2>
+  <p><b>Where does the data come from?</b> Match results, rankings, skills and awards come from the public VEX Events
+  API, so they appear once an event posts them. PowerScale ratings, records and qualifications are rebuilt every night.</p>
+  <p><b>What is PowerScale?</b> IEstats' own team rating, built from match results. See <b>Settings → How PowerScale
+  works</b> for how it's calculated and how accurate it is.</p>
+  <p><b>How do I see my next match on the Lock Screen?</b> Turn on <b>Settings → Widgets → Live Activity</b>. During a
+  tournament your next matches appear on the Lock Screen and in the Dynamic Island. You can also add the Tournament and
+  Team widgets from your Home Screen.</p>
+  <p><b>A qualification says "Likely". Why?</b> Many events don't list their qualifying awards, so IEstats assumes the
+  awards that usually qualify in that region until the event confirms them.</p>
+  <p><b>How do I change the app icon?</b> <b>Settings → App icon</b>: pick an icon, then a color scheme, then tap Use.</p>
+
+  <h2>Privacy</h2>
+  <p>IEstats doesn't collect personal information. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+  <p class="muted">IEstats isn't affiliated with or endorsed by VEX Robotics, the REC Foundation or the Global Robotics &amp; Science Foundation.</p>
+</main>
+</body>
+</html>
